@@ -1,0 +1,10 @@
+*.o
+*.elf
+*.bin
+*.hex
+*.map
+Debug/
+Release/
+.cproject
+.project
+*.swp
