@@ -1,0 +1,35 @@
+---
+:source:
+  :file: test/test_ring_buffer.c
+  :dirname: test
+  :basename: test_ring_buffer.c
+:successes:
+- :test: test_rb_is_empty_after_init
+  :line: 10
+  :message: ''
+  :unity_test_time: 0
+- :test: test_rb_not_empty_after_push
+  :line: 15
+  :message: ''
+  :unity_test_time: 0
+- :test: test_rb_pop_returns_pushed_value
+  :line: 21
+  :message: ''
+  :unity_test_time: 0
+- :test: test_rb_is_full_after_max_pushes
+  :line: 27
+  :message: ''
+  :unity_test_time: 0
+- :test: test_rb_fifo_order
+  :line: 33
+  :message: ''
+  :unity_test_time: 0
+:failures: []
+:ignores: []
+:counts:
+  :total: 5
+  :passed: 5
+  :failed: 0
+  :ignored: 0
+:stdout: []
+:time: 0.0005482520000441582
